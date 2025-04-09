@@ -1,0 +1,35 @@
+ecommerce-store outline
+-client(React frontend)
+    -public/
+    -src/
+        -components/
+        -pages/
+        -App.js
+        -index.js
+-server(Node + Express backend)
+        -db/
+            -database.sqlite
+        -routes/
+        -controllers/
+        -server.js
+
+Tech
+Frontend: React, TailwindCSS, Chart.js
+Backend: Node.js, Express
+Database: SQLite
+Payments: Stripe API (test mode)
+
+FEATURES
+
+1. Product List
+Stored in SQLite or backup to products.json in frontend
+Use placeholder images and descriptions
+2. Cart Functionality
+Add, remove, update quantity
+Local state or Context API
+3. Stripe Checkout
+Use Stripe test keys
+Simple checkout flow - Stripe-hosted payment page
+4. Admin Dashboard (Mockup)
+Basic Chart.js bar/line chart (hardcoded stats or SQLite analytics)
+
