@@ -8,19 +8,19 @@ const fakeProducts = [
     id: 1,
     name: 'Wireless Headphones',
     price: 99.99,
-    image: '/images/headphones.jpg',
+    image: `${process.env.PUBLIC_URL}/images/headphones.jpg`,
   },
   {
     id: 2,
     name: 'Smart Watch',
     price: 149.99,
-    image: '/images/smartwatch.jpg',
+    image: `${process.env.PUBLIC_URL}/images/smartwatch.jpg`,
   },
   {
     id: 3,
     name: 'Running Shoes',
     price: 79.99,
-    image: '/images/shoes.jpg',
+    image: `${process.env.PUBLIC_URL}/images/shoes.jpg`,
   },
 ];
 
